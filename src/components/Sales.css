@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Quicksand:wght@300&family=Titillium+Web:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel__Sales {
+    position: absolute;
+    top: 12vh;
+    height: 9vh;
+    width: 100%;
+    background-color: rgb(251, 246, 246);
+}
+
+.carousel__Sales__item {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel__Sales__item p {
+    margin-top: 1.3vh;
+    /* margin-left: 20vw; */
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    width: 100%;
+}
+
+.carousel__Sales__underItem a {
+    position: relative;
+    /* justify-content: center; only works for display: flex */
+    margin-top: 5px;
+    margin-left: 45vw;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: underline;
+    color: black;
+}
+
+
+/* .carousel__Sales_arrow {
+    margin: 0;
+    padding: 0;
+    height: 10px;
+    width: 10px;
+    display: flex;
+} */
+
+.prev,
+.next {
+    cursor: pointer;
+    /* position: absolute; */
+    align-items: center;
+    padding: 16px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    color: #888;
+}
+
+.next {
+    /* position: absolute; */
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
